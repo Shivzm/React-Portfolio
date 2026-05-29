@@ -12,13 +12,13 @@ function NotFound() {
   return (
     <>
       <Helmet>
-        <title>404 - Page Not Found | Amresh Bhuyan</title>
+        <title>404 - Page Not Found | Shivam Mukherjee</title>
         <meta 
           name="description" 
           content="The page you're looking for doesn't exist or has been moved. Return to Amresh Bhuyan's portfolio website."
         />
         <meta name="robots" content="noindex, follow" />
-        <link rel="canonical" href="https://amresh.aediax.com" />
+        <link rel="canonical" href="" />
       </Helmet>
 
       <Container maxWidth="md">

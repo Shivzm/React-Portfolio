@@ -110,7 +110,7 @@ npm install
 
 ### 3. Set Up Environment Variables
 Create `.env` file:
-```env
+```env 
 REACT_APP_SITE_URL=https://amresh.aediax.com
 REACT_APP_GA_MEASUREMENT_ID=G-XXXXXXXXXX
 ```

@@ -20,7 +20,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const mailto = `mailto:amreshbhuyanone@gmail.com?subject=${encodeURIComponent(
+    const mailto = `mailto:shiva040405@gmail.com?subject=${encodeURIComponent(
       formData.subject
     )}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`
@@ -32,41 +32,41 @@ function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact Amresh Bhuyan | Web Developer & AI Engineer</title>
+        <title>Contact Shivam Mukherjee | Web Developer & AI Engineer</title>
         <meta 
           name="description" 
-          content="Get in touch with Amresh Bhuyan for collaborations, projects, or discussions about web development, AI, and technology." 
+          content="Get in touch with Shivam Mukherjee for collaborations, projects, or discussions about web development, AI, and technology." 
         />
         <meta 
           name="keywords" 
-          content="Amresh Bhuyan contact, web developer contact, AI engineer, collaboration, project inquiry, technology discussion" 
+          content="Shivam Mukherjee contact, web developer contact, AI engineer, collaboration, project inquiry, technology discussion" 
         />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://amreshbhuyan.com/contact" />
-        <meta property="og:title" content="Contact Amresh Bhuyan | Web Developer & AI Engineer" />
+        <meta property="og:url" content="https://shivammukherjee.com/contact" />
+        <meta property="og:title" content="Contact Shivam Mukherjee | Web Developer & AI Engineer" />
         <meta 
           property="og:description" 
-          content="Connect with Amresh Bhuyan for collaborations, projects, or discussions about web development, AI, and technology." 
+          content="Connect with Shivam Mukherjee for collaborations, projects, or discussions about web development, AI, and technology." 
         />
-        <meta property="og:image" content="https://amreshbhuyan.com/images/contact-og-image.jpg" />
+        <meta property="og:image" content="https://shivammukherjee.com/images/contact-og-image.jpg" />
         
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://amreshbhuyan.com/contact" />
-        <meta property="twitter:title" content="Contact Amresh Bhuyan | Web Developer & AI Engineer" />
+        <meta property="twitter:url" content="https://shivammukherjee.com/contact" />
+        <meta property="twitter:title" content="Contact Shivam Mukherjee | Web Developer & AI Engineer" />
         <meta 
           property="twitter:description" 
-          content="Get in touch with Amresh Bhuyan for collaborations, projects, or discussions about web development, AI, and technology." 
+          content="Get in touch with Shivam Mukherjee for collaborations, projects, or discussions about web development, AI, and technology." 
         />
-        <meta property="twitter:image" content="https://amreshbhuyan.com/images/contact-twitter-image.jpg" />
+        <meta property="twitter:image" content="https://shivammukherjee.com/images/contact-twitter-image.jpg" />
         
         {/* Canonical URL */}
-        <link rel="canonical" href="https://amreshbhuyan.com/contact" />
+        <link rel="canonical" href="https://shivammukherjee.com/contact" />
         
         {/* Additional meta tags */}
-        <meta name="author" content="Amresh Bhuyan" />
+        <meta name="author" content="Shivam Mukherjee" />
         <meta name="robots" content="index, follow" />
         <meta name="language" content="English" />
         
@@ -76,32 +76,32 @@ function Contact() {
             {
               "@context": "https://schema.org",
               "@type": "ContactPage",
-              "name": "Contact Amresh Bhuyan",
-              "description": "Contact page for Amresh Bhuyan - Web Developer & AI Engineer",
-              "url": "https://amreshbhuyan.com/contact",
+              "name": "Contact Shivam Mukherjee",
+              "description": "Contact page for Shivam Mukherjee - Web Developer & AI Engineer",
+              "url": "https://shivammukherjee.com/contact",
               "author": {
                 "@type": "Person",
-                "name": "Amresh Bhuyan",
+                "name": "Shivam Mukherjee",
                 "jobTitle": "Web Developer & AI Engineer",
-                "email": "amreshbhuyanone@gmail.com",
-                "url": "https://amreshbhuyan.com"
+                "email": "shiva040405@gmail.com",
+                "url": "https://shivammukherjee.com"
               },
               "contactPoint": [
                 {
                   "@type": "ContactPoint",
-                  "email": "amreshbhuyanone@gmail.com",
+                  "email": "shiva040405@gmail.com",
                   "contactType": "personal",
                   "availableLanguage": "English"
                 },
                 {
                   "@type": "ContactPoint",
-                  "email": "amreshbhuyan@aediax.com",
+                  "email": "shiva040405@gmail.com",
                   "contactType": "work",
                   "availableLanguage": "English"
                 },
                 {
                   "@type": "ContactPoint",
-                  "telephone": "+917854998757",
+                  "telephone": "+919439712822",
                   "contactType": "customer service",
                   "contactOption": "TollFree",
                   "areaServed": "IN",
@@ -126,23 +126,18 @@ function Contact() {
         <Box className={styles.contactInfo}>
           <Typography>
             <EmailIcon fontSize="small" />{' '}
-            <strong>Personal:</strong> amreshbhuyanone@gmail.com
-          </Typography>
-
-          <Typography>
-            <EmailIcon fontSize="small" />{' '}
-            <strong>Official:</strong> amreshbhuyan@aediax.com
+            <strong>Personal:</strong> shiva040405@gmail.com
           </Typography>
 
           <Typography>
             <WhatsAppIcon fontSize="small" />{' '}
             <Link
-              href="https://wa.me/917854998757"
+              href="https://wa.me/919439712822"
               target="_blank"
               underline="none"
               aria-label="Contact via WhatsApp"
             >
-              +91 78549 98757 (WhatsApp)
+              +91 94397 12822 (WhatsApp)
             </Link>
           </Typography>
         </Box>

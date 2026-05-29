@@ -78,7 +78,7 @@ function Services() {
   ];
 
   // Create meta description from services
-  const metaDescription = `Professional services by Amresh Bhuyan including ${services.map(s => s.category).join(', ')}. Offering enterprise-grade solutions in web, mobile, AI, and security.`;
+  const metaDescription = `Professional services by Shivam Mukherjee including ${services.map(s => s.category).join(', ')}. Offering enterprise-grade solutions in web, mobile, AI, and security.`;
 
   // Create keywords from all tech stacks
   const allKeywords = Array.from(new Set(services.flatMap(s => s.tech))).join(', ');
@@ -86,39 +86,39 @@ function Services() {
   return (
     <>
       <Helmet>
-        <title>Services | Amresh Bhuyan - Web, Mobile, AI & Security Solutions</title>
+        <title>Services | Shivam Mukherjee - Web, Mobile, AI & Security Solutions</title>
         <meta 
           name="description" 
           content={metaDescription}
         />
         <meta 
           name="keywords" 
-          content={`Amresh Bhuyan services, ${allKeywords}, web development, mobile app development, AI solutions, cybersecurity, training, mentorship`}
+          content={`Shivam Mukherjee services, ${allKeywords}, web development, mobile app development, AI solutions, cybersecurity, training, mentorship`}
         />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://amreshbhuyan.com/services" />
+        <meta property="og:url" content="https://shivammukherjee.com/services" />
         <meta property="og:title" content="Professional Services | Amresh Bhuyan" />
         <meta 
           property="og:description" 
           content="Enterprise-grade development services: Web applications, mobile apps, AI systems, security solutions, and professional training."
         />
-        <meta property="og:image" content="https://amreshbhuyan.com/images/services-og-image.jpg" />
+        <meta property="og:image" content="https://shivammukherjee.com/images/services-og-image.jpg" />
         <meta property="og:image:alt" content="Amresh Bhuyan Services Overview" />
         
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://amreshbhuyan.com/services" />
+        <meta property="twitter:url" content="https://shivammukherjee.com/services" />
         <meta property="twitter:title" content="Services | Amresh Bhuyan - Development & AI Solutions" />
         <meta 
           property="twitter:description" 
           content="Expert services in web development, mobile apps, AI systems, security solutions, and professional training."
         />
-        <meta property="twitter:image" content="https://amreshbhuyan.com/images/services-twitter-image.jpg" />
+        <meta property="twitter:image" content="https://shivammukherjee.com/images/services-twitter-image.jpg" />
         
         {/* Canonical URL */}
-        <link rel="canonical" href="https://amreshbhuyan.com/services" />
+        <link rel="canonical" href="https://shivammukherjee.com/services" />
         
         {/* Additional meta tags */}
         <meta name="author" content="Amresh Bhuyan" />
@@ -134,13 +134,13 @@ function Services() {
             "@type": "Service",
             "name": "Amresh Bhuyan Development Services",
             "description": "Professional web, mobile, AI, and security development services",
-            "url": "https://amreshbhuyan.com/services",
+            "url": "https://shivammukherjee.com/services",
             "provider": {
               "@type": "Person",
               "name": "Amresh Bhuyan",
               "jobTitle": "Web Developer & AI Engineer",
-              "email": "amreshbhuyanone@gmail.com",
-              "url": "https://amreshbhuyan.com"
+              "email": "shiva040405@gmail.com",
+              "url": "https://shivammukherjee.com"
             },
             "areaServed": {
               "@type": "Country",

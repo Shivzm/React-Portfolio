@@ -30,63 +30,25 @@ const TechStack = ({ tech }) => (
 function Projects() {
   const projects = [
     {
-      title: "SUIIT Library Management System",
-      description: "A centralized academic library platform designed to manage catalogues, users, and institutional workflows.",
-      tech: ['React', 'Node', 'Firebase', 'HTML', 'CSS', 'JS'],
-      link: "https://library.suiit.ac.in",
+      title: "Agentic-LLM-Chatbot-System",
+      description: "A simple Chatbot system with ReAct systewm and multi-agent flow.",
+      tech: ['LangChain', 'LangGraph', 'Python', 'LangSmith', 'Groq-API', 'Tavily-API'],
+      link: "https://github.com/Shivzm/Agentic-LLM-Chatbot-System",
       icon: <SchoolIcon className={styles.icon} />,
       color: styles.blue
     },
     {
-      title: "NAMAMI INDIA Support Services",
-      description: "Corporate digital presence for a hospitality and facility management organization.",
-      tech: ['React', 'SEO', 'Sitemap', 'Web'],
-      link: "https://namamiindia.co.in",
-      icon: <LanguageIcon className={styles.icon} />,
-      color: styles.green
-    },
-    {
-      title: "FLAVR APOGI – Enterprise Platforms",
-      description: "Multi-platform systems including web, Android, iOS, and internal support portals for enterprise operations.",
-      tech: ['Expo', 'React Native', 'TypeScript', 'Firebase', 'Node', 'Express'],
-      link: "https://www.flavrapogi.com",
-      icon: <AndroidIcon className={styles.icon} />,
-      color: styles.purple
-    },
-    {
-      title: "Pragati Security & Intelligence Services",
-      description: "Professional corporate website for a licensed security and intelligence services company.",
-      tech: ['React', 'Corporate Web', 'SEO'],
-      link: "https://pragatisecurity.com",
-      icon: <SecurityIcon className={styles.icon} />,
-      color: styles.orange
-    },
-    {
-      title: "Signature Verification System",
-      description: "AI-driven authentication system focused on identity verification and fraud prevention.",
-      tech: ['Python', 'ML', 'TensorFlow', 'React'],
-      icon: <StorageIcon className={styles.icon} />,
-      color: styles.red
-    },
-    {
-      title: "Research & Publications",
-      description: "Author of multiple IEEE and Springer research works on intelligent and secure systems.",
-      tech: ['IEEE', 'Springer', 'AI Research'],
-      link: "https://link.springer.com/chapter/10.1007/978-3-032-06688-6_17",
-      icon: <ArticleIcon className={styles.icon} />,
-      color: styles.gray
-    },
-    {
-      title: "Internship & Mentorship",
-      description: "Mentoring full-stack developer interns with emphasis on real-world development practices.",
-      tech: ['React', 'Node', 'Firebase', 'Git'],
-      icon: <GroupIcon className={styles.icon} />,
-      color: styles.dark
+      title: "DevPulse",
+      description: "DevPulse is a high-performance, ultra-luxury micro-SaaS infrastructure status monitoring dashboard. It provides engineering teams and end-users with real-time telemetry, incident tracking, and system health metrics.",
+      tech: ['HTML', 'CSS', 'JS', 'Node.js', 'Express', 'MySQL'],
+      link: "https://github.com/Shivzm/DevPulse",
+      icon: <SchoolIcon className={styles.icon} />,
+      color: styles.blue
     }
   ];
 
   // Create meta description from projects
-  const metaDescription = `Professional projects by Amresh Bhuyan including ${projects.slice(0, 3).map(p => p.title).join(', ')} and more. Explore enterprise solutions, AI systems, and research publications.`;
+  const metaDescription = `Professional projects by Shivam Mukherjee including ${projects.slice(0, 3).map(p => p.title).join(', ')} and more. Explore enterprise solutions, AI systems, and research publications.`;
 
   return (
     <>
@@ -98,18 +60,18 @@ function Projects() {
         />
         <meta 
           name="keywords" 
-          content="Amresh Bhuyan projects, web development projects, AI systems, React projects, enterprise solutions, library management system, signature verification, research publications"
+          content="Shivam Mukherjee projects, web development projects, AI systems, React projects, enterprise solutions, library management system, signature verification, research publications"
         />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://amreshbhuyan.com/projects" />
+        <meta property="og:url" content="https://shivammukherjee.com/projects" />
         <meta property="og:title" content="Projects by Amresh Bhuyan | Web Development & AI Systems" />
         <meta 
           property="og:description" 
           content="Explore professional projects including enterprise platforms, AI systems, research publications, and corporate solutions built with modern technologies."
         />
-        <meta property="og:image" content="https://amreshbhuyan.com/images/projects-og-image.jpg" />
+        <meta property="og:image" content="https://shivammukherjee.com/images/projects-og-image.jpg" />
         
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />

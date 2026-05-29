@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Typography, Button, Paper } from '@mui/material';
-import AmreshImage from "../assets/Amresh.png";
+import AmreshImage from "../assets/logo.png";
 import styles from '../styles/Home.module.css';
 
 /* Professional Roles */
 const roles = [
-  'Tech Entrepreneur',
-  'Founder & CEO',
   'Software Developer',
-  'Engineer'
+  'Engineer',
+  'AI Engineer',
 ];
 
 function Home() {
@@ -61,7 +60,7 @@ function Home() {
             variant="h2"
             className={styles.name}
           >
-            Amresh Bhuyan
+            Shivam Mukherjee
           </Typography>
 
           <Typography
@@ -79,8 +78,8 @@ function Home() {
             variant="body1"
             className={styles.description}
           >
-            I am a technology entrepreneur and software engineer, serving as the
-            Founder, Director, and Chief Executive Officer of
+            I am a technology entrepreneur and software engineer, serving as an
+            intern
             <strong> AediaX Tech Private Limited</strong>.
             I focus on building scalable software systems, enterprise platforms,
             and modern web applications that bridge innovation with real-world impact.
@@ -106,7 +105,7 @@ function Home() {
             <img
               id={styles.profileImg}
               src={AmreshImage}
-              alt="Amresh Bhuyan"
+              alt="Shivam Mukherjee"
               className={styles.profileImage}
             />
           </Paper>
