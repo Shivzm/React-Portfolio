@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Typography, Button, Paper } from '@mui/material';
-import AmreshImage from "../assets/logo.png";
+import ShivamImage from "../assets/logo.png";
 import styles from '../styles/Home.module.css';
 
 /* Professional Roles */
@@ -104,7 +104,7 @@ function Home() {
           >
             <img
               id={styles.profileImg}
-              src={AmreshImage}
+              src={ShivamImage}
               alt="Shivam Mukherjee"
               className={styles.profileImage}
             />

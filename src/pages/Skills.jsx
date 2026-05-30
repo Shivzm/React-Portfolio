@@ -55,7 +55,7 @@ function Skills() {
   );
 
   // Create meta description
-  const metaDescription = `Amresh Bhuyan's technical skills include ${technicalSkills.slice(0, 5).map(s => s.name).join(', ')} and more. Professional skills: ${professionalSkills.slice(0, 3).map(s => s.name).join(', ')}.`;
+  const metaDescription = `Shivam Mukherjee's technical skills include ${technicalSkills.slice(0, 5).map(s => s.name).join(', ')} and more. Professional skills: ${professionalSkills.slice(0, 3).map(s => s.name).join(', ')}.`;
 
   // Create skills list for structured data
   const allSkills = [...technicalSkills, ...professionalSkills];
@@ -63,43 +63,43 @@ function Skills() {
   return (
     <>
       <Helmet>
-        <title>Skills | Amresh Bhuyan - Technical & Professional Expertise</title>
+        <title>Skills | Shivam Mukherjee  - Technical & Professional Expertise</title>
         <meta 
           name="description" 
           content={metaDescription}
         />
         <meta 
           name="keywords" 
-          content={`Amresh Bhuyan skills, ${technicalSkills.map(s => s.name).join(', ')}, web development skills, programming skills, technical expertise, professional skills`}
+          content={`Shivam Mukherjee skills, ${technicalSkills.map(s => s.name).join(', ')}, web development skills, programming skills, technical expertise, professional skills`}
         />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="profile" />
-        <meta property="og:profile:username" content="amreshbhuyan" />
-        <meta property="og:url" content="https://amreshbhuyan.com/skills" />
-        <meta property="og:title" content="Skills & Expertise | Amresh Bhuyan" />
+        <meta property="og:profile:username" content="shivammukherjee" />
+        <meta property="og:url" content="https://shivammukherjee.com/skills" />
+        <meta property="og:title" content="Skills & Expertise | Shivam Mukherjee" />
         <meta 
           property="og:description" 
           content="Explore technical and professional skills including web development, mobile development, AI, and soft skills with proficiency levels."
         />
-        <meta property="og:image" content="https://amreshbhuyan.com/images/skills-og-image.jpg" />
-        <meta property="og:image:alt" content="Amresh Bhuyan Skills Overview" />
+        <meta property="og:image" content="https://shivammukherjee.com/images/skills-og-image.jpg" />
+        <meta property="og:image:alt" content="Shivam Mukherjee Skills Overview" />
         
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://amreshbhuyan.com/skills" />
-        <meta property="twitter:title" content="Skills | Amresh Bhuyan - Development Expertise" />
+        <meta property="twitter:url" content="https://shivammukherjee.com/skills" />
+        <meta property="twitter:title" content="Skills | Shivam Mukherjee - Development Expertise" />
         <meta 
           property="twitter:description" 
           content="Technical skills in React, Node.js, Python, and professional abilities. View detailed proficiency levels."
         />
-        <meta property="twitter:image" content="https://amreshbhuyan.com/images/skills-twitter-image.jpg" />
+        <meta property="twitter:image" content="https://shivammukherjee.com/images/skills-twitter-image.jpg" />
         
         {/* Canonical URL */}
-        <link rel="canonical" href="https://amreshbhuyan.com/skills" />
+        <link rel="canonical" href="https://shivammukherjee.com/skills" />
         
         {/* Additional meta tags */}
-        <meta name="author" content="Amresh Bhuyan" />
+        <meta name="author" content="Shivam Mukherjee" />
         <meta name="robots" content="index, follow" />
         <meta name="language" content="English" />
         <meta name="rating" content="General" />
@@ -109,8 +109,8 @@ function Skills() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "Amresh Bhuyan",
-            "url": "https://amreshbhuyan.com",
+            "name": "Shivam Mukherjee",
+            "url": "https://shivammukherjee.com",
             "description": "Web Developer & AI Engineer",
             "knowsAbout": technicalSkills.map(skill => skill.name),
             "hasOccupation": {
@@ -177,13 +177,13 @@ function Skills() {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://amreshbhuyan.com"
+                "item": "https://shivammukherjee.com"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Skills",
-                "item": "https://amreshbhuyan.com/skills"
+                "item": "https://shivammukherjee.com/skills"
               }
             ]
           })}

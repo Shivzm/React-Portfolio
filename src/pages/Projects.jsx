@@ -53,7 +53,7 @@ function Projects() {
   return (
     <>
       <Helmet>
-        <title>Projects by Amresh Bhuyan | Web Development & AI Systems</title>
+        <title>Projects by Shivam Mukherjee | Web Development & AI Systems</title>
         <meta 
           name="description" 
           content={metaDescription}
@@ -75,19 +75,19 @@ function Projects() {
         
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://amreshbhuyan.com/projects" />
+        <meta property="twitter:url" content="https://shivammukherjee.com/projects" />
         <meta property="twitter:title" content="Projects by Amresh Bhuyan | Web Development & AI Systems" />
         <meta 
           property="twitter:description" 
           content="Check out my portfolio of enterprise solutions, AI systems, and research publications in web development and artificial intelligence."
         />
-        <meta property="twitter:image" content="https://amreshbhuyan.com/images/projects-twitter-image.jpg" />
+        <meta property="twitter:image" content="https://shivammukherjee.com/images/projects-twitter-image.jpg" />
         
         {/* Canonical URL */}
-        <link rel="canonical" href="https://amreshbhuyan.com/projects" />
+        <link rel="canonical" href="https://shivammukherjee.com/projects" />
         
         {/* Additional meta tags */}
-        <meta name="author" content="Amresh Bhuyan" />
+        <meta name="author" content="Shivam Mukherjee" />
         <meta name="robots" content="index, follow" />
         <meta name="language" content="English" />
         
@@ -96,9 +96,9 @@ function Projects() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ItemList",
-            "name": "Projects Portfolio - Amresh Bhuyan",
+            "name": "Projects Portfolio - Shivam Mukherjee",
             "description": "Collection of professional projects and contributions by Amresh Bhuyan",
-            "url": "https://amreshbhuyan.com/projects",
+            "url": "https://shivammukherjee.com/projects",
             "numberOfItems": projects.length,
             "itemListElement": projects.map((project, index) => ({
               "@type": "ListItem",
@@ -107,11 +107,11 @@ function Projects() {
                 "@type": "CreativeWork",
                 "name": project.title,
                 "description": project.description,
-                "url": project.link || "https://amreshbhuyan.com/projects",
+                "url": project.link || "https://shivammukherjee.com/projects",
                 "keywords": project.tech.join(", "),
                 "author": {
                   "@type": "Person",
-                  "name": "Amresh Bhuyan"
+                  "name": "Shivam Mukherjee"
                 }
               }
             }))
@@ -128,13 +128,13 @@ function Projects() {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://amreshbhuyan.com"
+                "item": "https://shivammukherjee.com"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Projects",
-                "item": "https://amreshbhuyan.com/projects"
+                "item": "https://shivammukherjee.com/projects"
               }
             ]
           })}
@@ -184,11 +184,8 @@ function Projects() {
                     itemProp="url"
                     aria-label={`Visit ${project.title}`}
                   >
-                    {project.title.includes('Library') ? 'Visit Platform' : 
-                     project.title.includes('NAMAMI') ? 'Company Website' :
-                     project.title.includes('FLAVR') ? 'Explore Platform' :
-                     project.title.includes('Pragati') ? 'Visit Website' :
-                     project.title.includes('Research') ? 'View Publication' :
+                    {project.title.includes('Agentic-LLM-Chatbot-System') ? 'Visit Platform' : 
+                     project.title.includes('DevPulse') ? 'Visit Platform' :
                      'View Project'}
                   </Link>
                 )}

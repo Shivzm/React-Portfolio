@@ -99,18 +99,18 @@ function Services() {
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://shivammukherjee.com/services" />
-        <meta property="og:title" content="Professional Services | Amresh Bhuyan" />
+        <meta property="og:title" content="Professional Services | Shivam Mukherjee" />
         <meta 
           property="og:description" 
           content="Enterprise-grade development services: Web applications, mobile apps, AI systems, security solutions, and professional training."
         />
         <meta property="og:image" content="https://shivammukherjee.com/images/services-og-image.jpg" />
-        <meta property="og:image:alt" content="Amresh Bhuyan Services Overview" />
+        <meta property="og:image:alt" content="Shivam Mukherjee Services Overview" />
         
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://shivammukherjee.com/services" />
-        <meta property="twitter:title" content="Services | Amresh Bhuyan - Development & AI Solutions" />
+        <meta property="twitter:title" content="Services | Shivam Mukherjee - Development & AI Solutions" />
         <meta 
           property="twitter:description" 
           content="Expert services in web development, mobile apps, AI systems, security solutions, and professional training."
@@ -121,7 +121,7 @@ function Services() {
         <link rel="canonical" href="https://shivammukherjee.com/services" />
         
         {/* Additional meta tags */}
-        <meta name="author" content="Amresh Bhuyan" />
+        <meta name="author" content="Shivam Mukherjee" />
         <meta name="robots" content="index, follow" />
         <meta name="language" content="English" />
         <meta name="subject" content="Web Development, Mobile Development, AI Solutions" />
@@ -132,12 +132,12 @@ function Services() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "name": "Amresh Bhuyan Development Services",
+            "name": "Shivam Mukherjee Development Services",
             "description": "Professional web, mobile, AI, and security development services",
             "url": "https://shivammukherjee.com/services",
             "provider": {
               "@type": "Person",
-              "name": "Amresh Bhuyan",
+              "name": "Shivam Mukherjee",
               "jobTitle": "Web Developer & AI Engineer",
               "email": "shiva040405@gmail.com",
               "url": "https://shivammukherjee.com"
@@ -159,7 +159,7 @@ function Services() {
                   "serviceType": service.tech.join(", "),
                   "provider": {
                     "@type": "Person",
-                    "name": "Amresh Bhuyan"
+                    "name": "Shivam Mukherjee"
                   }
                 },
                 "position": index + 1
@@ -178,13 +178,13 @@ function Services() {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://amreshbhuyan.com"
+                "item": "https://shivammukherjee.com"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Services",
-                "item": "https://amreshbhuyan.com/services"
+                "item": "https://shivammukherjee.com/services"
               }
             ]
           })}
